@@ -1,0 +1,141 @@
+apply plugin: 'com.android.application'
+apply plugin: 'io.fabric'
+
+
+buildscript {
+    repositories {
+        maven { url 'https://maven.fabric.io/public' }
+    }
+
+    dependencies {
+        classpath 'io.fabric.tools:gradle:1.+'
+    }
+}
+
+
+android {
+
+    lintOptions {
+        checkReleaseBuilds false
+        // Or, if you prefer, you can continue to check for errors in release builds,
+        // but continue the build even when errors are found:
+        abortOnError false
+    }
+    compileSdkVersion 26
+    defaultConfig {
+        applicationId "in.calibrage.teluguchurches"
+        minSdkVersion 15
+        targetSdkVersion 26
+        versionCode 5
+        versionName "1.5"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        renderscriptSupportModeEnabled true
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+        debug {
+            debuggable true
+        }
+    }
+    buildToolsVersion '28.0.3'
+    flavorDimensions "default"
+    productFlavors {
+        dev {
+            buildConfigField "String", "SERVER_URL", '" "'
+            buildConfigField "String", "PAYPAL_URL", '" "'
+            buildConfigField "String", "LOCAL_URL", '"http://192.168.1.121/TeluguChurches/"'
+        }
+    }
+    android {
+        defaultConfig {
+            multiDexEnabled true
+        }
+    }
+    repositories {
+        mavenCentral()
+        maven() {
+            url "https://oss.sonatype.org/content/repositories/snapshots"
+        }
+    }
+
+
+    allprojects {
+        repositories {
+            jcenter()
+            maven { url "https://jitpack.io" }
+        }
+    }
+
+
+}
+
+dependencies {
+
+
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+//noinspection GradleCompatible
+    implementation 'com.android.support:appcompat-v7:26.1.0'
+    implementation 'com.android.support:design:26.1.0'
+    implementation 'com.android.support.constraint:constraint-layout:1.0.2'
+    implementation 'com.android.support:support-v4:26.1.0'
+    compile 'fr.avianey.com.viewpagerindicator:library:2.4.1.1@aar'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'com.android.support.test:runner:1.0.1'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
+
+// http://square.github.io/okhttp/
+    compile 'com.squareup.okhttp3:logging-interceptor:3.6.0'
+//https://github.com/ReactiveX/RxAndroid
+    compile 'io.reactivex:rxandroid:1.2.1'
+    compile 'io.reactivex:rxjava:1.1.6'
+    compile 'com.mikhaellopez:circularimageview:3.0.2'
+//  //  https://github.com/ReactiveX/RxAndroid
+//    compile 'io.reactivex.rxjava2:rxandroid:2.0.1'
+//https://mvnrepository.com/artifact/com.squareup.retrofit2/converter-gson
+    compile 'com.squareup.retrofit2:converter-gson:2.1.0'
+// Because RxAndroid releases are few and far between, it is recommended you also
+// explicitly depend on RxJava's latest version for bug fixes and new features.
+//    compile 'io.reactivex.rxjava2:rxjava:2.0.1'
+//https://mvnrepository.com/artifact/com.squareup.retrofit2/adapter-rxjava
+    compile 'com.squareup.retrofit2:adapter-rxjava:2.1.0'
+    implementation 'com.android.support:cardview-v7:26.1.0'
+    implementation 'com.android.support:palette-v7:26.1.0'
+    implementation 'com.squareup.picasso:picasso:2.5.2'
+    compile 'com.rengwuxian.materialedittext:library:2.1.4'
+    compile 'com.github.bumptech.glide:glide:3.7.0'
+    compile 'com.mikhaellopez:circularimageview:3.0.2'
+    compile 'de.hdodenhof:circleimageview:1.2.1'
+
+    compile 'com.prolificinteractive:material-calendarview:1.4.3'
+    compile 'fr.avianey.com.viewpagerindicator:library:2.4.1.1@aar'
+    compile 'me.relex:circleindicator:1.2.2@aar'
+    implementation 'com.jakewharton.timber:timber:4.6.1'
+    compile 'com.google.firebase:firebase-messaging:11.0.4'
+    compile 'com.android.volley:volley:1.1.0'
+
+//Google Play service
+    compile 'com.google.android.gms:play-services:11.0.4'
+    compile 'com.google.android.gms:play-services-gcm:11.0.4'
+    compile 'com.google.android.gms:play-services-maps:11.0.4'
+
+// ToolTip
+//    compile('com.github.worker8:tourguide:1.0.18-SNAPSHOT@aar') {
+//        transitive = true
+//    }
+//    compile 'com.github.vihtarb:tooltip:0.1.9'
+// showcaseview
+    compile 'com.github.deano2390:MaterialShowcaseView:1.2.0'
+
+// send report to email
+    compile('com.crashlytics.sdk.android:crashlytics:2.9.6@aar') {
+        transitive = true;
+    }
+// Document
+    implementation 'com.github.barteksc:android-pdf-viewer:2.3.0'
+
+    compile 'org.apache.commons:commons-io:1.3.2'
+}
+apply plugin: 'com.google.gms.google-services'

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:card_view="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_marginTop="2dp">
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="@color/colorPrimary"
+        app:cardCornerRadius="6dp"
+        app:cardElevation="2dp"
+        app:cardUseCompatPadding="true"
+        card_view:cardElevation="4dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp">
+
+
+
+
+            <TextView
+                android:id="@+id/eventText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/adminText"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:text="CLAVARY TEMPLE, HYDERABAD"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:textStyle="bold"
+               />
+
+            <TextView
+                android:id="@+id/churchNameText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/eventText"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:text="CLAVARY TEMPLE, HYDERABAD"
+                android:textColor="@color/white"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/numberText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/churchNameText"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:text="CLAVARY TEMPLE, HYDERABAD"
+                android:textColor="@color/white"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/openTimeText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/numberText"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:text="CLAVARY TEMPLE, HYDERABAD"
+                android:textColor="@color/white"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/closeTimeText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/openTimeText"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:text="CLAVARY TEMPLE, HYDERABAD"
+                android:textColor="@color/white"
+                android:textSize="12sp" />
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

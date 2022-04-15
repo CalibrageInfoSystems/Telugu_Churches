@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- <color name="colorPrimary">#00bcd4</color>-->
+    <color name="colorPrimary">#68aed3</color>
+    <!-- <color name="colorPrimaryDark">#008ba3</color>-->
+    <color name="colorPrimaryDark">#68aed3</color>
+    <!-- <color name="colorAccent">#62efff</color>-->
+    <color name="colorAccent">#68aed3</color>
+    <color name="primaryTextColor">#000000</color>
+    <!--  <color name="primaryTransColor">#CCD1D1</color>-->
+    <color name="primaryTransColor">#758a8b</color>
+    <!--<color name="color_border">#c3dfee</color>-->
+    <color name="color_border">#d2e7f2</color>
+    <color name="color_text">#43baf9</color>
+
+    <color name="irisBlue">#00BCD4</color>
+    <color name="lightCyan">#E0F7FA</color>
+    <color name="paleTurquoise">#B2EBF2</color>
+    <color name="turquoiseBlue">#80DEEA</color>
+    <color name="mediumTurquoise">#4DD0E1</color>
+    <color name="summerSky">#26C6DA</color>
+    <color name="new_irisBlue">#00ACC1</color>
+    <color name="bondiBlue">#0097A7</color>
+    <color name="darkCyan">#00838F</color>
+    <color name="mosque">#006064</color>
+    <color name="electricBlue">#84FFFF</color>
+    <color name="aqua">#18FFFF</color>
+    <color name="new_Aqua">#00E5FF</color>
+    <color name="new_IrisBlue1">#00B8D4</color>
+    <color name="black">#000000</color>
+    <color name="light_black">#979494</color>
+    <color name="white">#ffffff</color>
+    <color name="new_white">#f1f0f0</color>
+    <color name="pink">#C200C2</color>
+    <color name="red">#FFC93437</color>
+    <color name="green">#5cd922</color>
+    <color name="yellow">#FFFF00</color>
+    <color name="light_grey">#606060</color>
+
+    <color name="light_grey_colour">#37343B</color>
+    <color name="light_bg">#E7E3E3</color>
+
+    <color name="layoutBGforCardView">#EDEBEA</color>
+    <color name="strickPriceColor">#F95544</color>
+    <color name="light_gray">#BEBEBE</color>
+
+</resources>
+
+

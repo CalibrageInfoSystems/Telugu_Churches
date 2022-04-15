@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/categories"
+            android:icon="@drawable/ic_categories"
+            android:title="@string/categories"
+            app:actionLayout="@layout/menu_arrow" />
+        <item
+            android:id="@+id/all_churches"
+            android:icon="@drawable/ic_churches_menu"
+            android:title="@string/all_churches"
+            app:actionLayout="@layout/menu_arrow" />
+        <item
+            android:id="@+id/event_title"
+            android:icon="@drawable/ic_events_menu"
+            android:title="@string/event_title"
+            app:actionLayout="@layout/menu_arrow" />
+        <item
+            android:id="@+id/author_title"
+            android:icon="@drawable/ic_authors_menu_item"
+            android:title="@string/pastors_title"
+            app:actionLayout="@layout/menu_arrow" />
+
+        <item
+            android:id="@+id/bible_study"
+            android:icon="@drawable/ic_study_bible_menu"
+            android:title="Bible Study"
+            android:visible="false"
+            app:actionLayout="@layout/menu_arrow" />
+
+        <item
+            android:id="@+id/bible_study_telugu"
+            android:icon="@drawable/ic_study_bible_menu"
+            android:title="@string/holy_telugu"
+            app:actionLayout="@layout/menu_arrow" />
+        <item
+            android:id="@+id/bible_study_test"
+            android:icon="@drawable/ic_study_bible_menu"
+            android:title="@string/holy_english"
+            app:actionLayout="@layout/menu_arrow" />
+
+        <item
+            android:id="@+id/notification_menu"
+            android:icon="@drawable/ic_notification"
+            android:title="@string/notifications"
+            app:actionLayout="@layout/menu_arrow" />
+        <item
+            android:id="@+id/careers"
+            android:icon="@drawable/ic_careers"
+            android:title="@string/careers"
+            app:actionLayout="@layout/menu_arrow" />
+
+        <item
+            android:id="@+id/onlinedshopping"
+            android:icon="@drawable/ic_shopping"
+            android:title="@string/online_shopping"
+            app:actionLayout="@layout/menu_arrow" />
+        <item
+            android:id="@+id/help"
+            android:icon="@drawable/ic_noun_help"
+            android:title="@string/help"
+            app:actionLayout="@layout/menu_arrow" />
+
+        <item
+            android:id="@+id/contact"
+            android:icon="@drawable/ic_noun_contact_us"
+            android:title="@string/contact"
+            app:actionLayout="@layout/menu_arrow" />
+
+
+    </group>
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_login"
+            android:icon="@drawable/ic_login_menu"
+            android:title="@string/login"
+            app:actionLayout="@layout/menu_arrow" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_profile"
+            android:title="@string/profile_str"
+            android:visible="false"
+            app:actionLayout="@layout/menu_arrow" />
+
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_logout"
+            android:title="@string/logout_str"
+            android:visible="false"
+            app:actionLayout="@layout/menu_arrow" />
+        <item
+            android:id="@+id/nav_change_password"
+            android:icon="@drawable/ic_change_password"
+            android:title="@string/change_password"
+            android:visible="false"
+            app:actionLayout="@layout/menu_arrow" />
+
+        <item
+            android:id="@+id/empty_one"
+            android:title=""
+            android:visible="true" />
+        <item
+            android:id="@+id/empty_two"
+            android:title=""
+            android:visible="true" />
+    </group>
+
+</menu>

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/appBar"
+        layout="@layout/toolbar_layout"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/youtubeLay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/appBar"
+        android:orientation="vertical">
+
+        <com.google.android.youtube.player.YouTubeThumbnailView
+            android:id="@+id/youtubethumbnailview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone" />
+
+        <com.google.android.youtube.player.YouTubePlayerView
+            android:id="@+id/youtube_player_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ebeff2" />
+
+
+        <LinearLayout
+            android:id="@+id/video_control"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/youtube_player_view"
+            android:background="#444"
+            android:orientation="vertical"
+            android:visibility="visible">
+
+            <ImageButton
+                android:id="@+id/play_video"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@null"
+                android:src="@android:drawable/ic_media_play"
+                android:visibility="visible" />
+
+            <ImageButton
+                android:id="@+id/pause_video"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@null"
+                android:src="@android:drawable/ic_media_pause"
+                android:visibility="gone" />
+
+
+            <SeekBar
+                android:id="@+id/video_seekbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp" />
+
+            <TextView
+                android:id="@+id/play_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="--:--"
+                android:textColor="@android:color/white" />
+
+            <ImageButton
+                android:id="@+id/change_orentation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@null"
+                android:src="@android:drawable/ic_menu_always_landscape_portrait" />
+        </LinearLayout>
+
+
+        <!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+        <!--android:id="@+id/video_control"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_below="@+id/youtube_player_view"-->
+        <!--android:background="#444"-->
+        <!--android:gravity="center_vertical"-->
+        <!--android:orientation="horizontal"-->
+        <!--android:visibility="visible"-->
+        <!--android:weightSum="12">-->
+
+        <!--<ImageButton-->
+        <!--android:id="@+id/play_video1"-->
+        <!--android:layout_width="0dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_margin="5dp"-->
+        <!--android:layout_weight="2"-->
+        <!--android:background="@null"-->
+        <!--android:src="@android:drawable/ic_media_play" />-->
+
+        <!--<ImageButton-->
+        <!--android:id="@+id/pause_video"-->
+        <!--android:layout_width="0dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_margin="5dp"-->
+        <!--android:layout_weight="1"-->
+        <!--android:background="@null"-->
+        <!--android:src="@android:drawable/ic_media_pause"-->
+        <!--android:visibility="gone" />-->
+
+        <!--<SeekBar-->
+        <!--android:id="@+id/video_seekbar1"-->
+        <!--android:layout_width="0dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_margin="10dp"-->
+        <!--android:layout_weight="6"-->
+        <!--android:progress="0" />-->
+
+        <!--<TextView-->
+        <!--android:id="@+id/play_time1"-->
+        <!--android:layout_width="0dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_margin="5dp"-->
+        <!--android:layout_weight="2"-->
+        <!--android:text="&#45;&#45;:&#45;&#45;"-->
+        <!--android:textColor="@android:color/white" />-->
+
+        <!--<ImageButton-->
+        <!--android:id="@+id/change_orentation1"-->
+        <!--android:layout_width="0dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_margin="5dp"-->
+        <!--android:layout_weight="2"-->
+        <!--android:background="@null"-->
+        <!--android:src="@android:drawable/ic_menu_always_landscape_portrait" />-->
+        <!--</LinearLayout>-->
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/videoRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/youtubeLay"
+        android:visibility="gone" />
+</RelativeLayout>

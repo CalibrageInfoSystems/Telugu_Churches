@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/layoutBGforCardView"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="center"
+        android:background="@color/white"
+        android:elevation="10dp"
+        card_view:cardElevation="1dp"
+        card_view:cardUseCompatPadding="true"
+        card_view:contentPadding="1dp">
+
+        <RelativeLayout
+            android:id="@+id/mainLay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:id="@+id/bookText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_10"
+                android:layout_toRightOf="@+id/itemImg"
+                android:paddingRight="35dp"
+                android:text="fg"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/descriptionText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/bookText"
+                android:layout_marginLeft="@dimen/margin_10"
+                android:layout_marginTop="2dp"
+                android:layout_toRightOf="@+id/itemImg"
+                android:text="gfg" />
+
+
+            <ImageView
+                android:id="@+id/itemImg"
+                android:layout_width="@dimen/image_width"
+                android:layout_height="@dimen/image_height"
+                android:src="@drawable/loginimage" />
+
+
+            <TextView
+                android:id="@+id/authorText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/descriptionText"
+                android:layout_marginLeft="@dimen/margin_10"
+                android:layout_marginTop="2dp"
+                android:textStyle="bold"
+                android:layout_toRightOf="@+id/itemImg"
+                android:text="gfg" />
+
+            <TextView
+                android:id="@+id/priceText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/authorText"
+                android:layout_marginLeft="@dimen/margin_10"
+                android:layout_marginTop="2dp"
+                android:layout_toRightOf="@+id/itemImg"
+                android:text="gfgfg" />
+
+            <ImageView
+                android:id="@+id/deleteImg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/authorText"
+                android:visibility="gone"
+                android:layout_marginRight="10dp"
+                android:padding="@dimen/margin_5"
+                android:src="@drawable/ic_menu_delete" />
+
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+
+    <TextView
+        android:id="@+id/spaceTextView"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@+id/card_view"
+        android:visibility="gone" />
+</RelativeLayout>

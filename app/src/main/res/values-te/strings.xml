@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">తెలుగు చర్చిలు</string>
+
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="gender_title">జెండర్</string>
+    <string name="male">మగ</string>
+    <string name="female">మహిళ</string>
+    <string name="no_records_found">ఎటువంటి పత్రాలు లభించలేదు. దయచేసి మరొక కీవర్డ్తో ప్రయత్నించండి</string>
+
+    <string name="toast_camera">కెమెరా అనుమతి మంజూరు చేయబడింది</string>
+    <string name="toast_camera_denied">కెమెరా అనుమతి తిరస్కరించబడింది</string>
+
+    <string name="upcoming_events_home">రాబోయే ఈవెంట్స్</string>
+    <string name="author_names">పాస్టర్ పేరు:</string>
+
+    <string name="search_hint">చర్చి పేరు/మొబైల్ సంఖ్య</string>
+    <string name="emptystring_dot">---</string>
+
+    <string name="action_settings">సెట్టింగులు</string>
+    <string name="userinfo_str">ప్రొఫైల్ సమాచారం</string>
+    <string name="settings_str">సెట్టింగులు</string>
+    <string name="please_enter_mobile_number">దయచేసి మొబైల్ నంబర్ను నమోదు చేయండి</string>
+    <string name="please_enter_email">దయచేసి ఇమెయిల్ను నమోదు చేయండి</string>
+
+    <string name="username">యూజర్ పేరు * </string>
+    <string name="author_username">యూజర్ పేరు</string>
+
+    <string name="event_date">ఈవెంట్ తేదీ</string>
+
+    <string name="password">పాస్వర్డ్ * </string>
+    <string name="login">లాగిన్</string>
+    <string name="change_password">పాస్ వర్డ్ ను మార్చండి</string>
+    <string name="forgot_password">పాస్వర్డ్ మర్చిపోయారా?</string>
+    <string name="don_t_have_an_account_register">మీకు ఖాతా ఉందా?</string>
+    <string name="please_login">దయచేసి లాగిన్ చేయండి</string>
+    <string name="err_please_enter_username">దయచేసి యూజర్ పేరు నమోదు చేయండి</string>
+    <string name="err_please_enter_password">దయచేసి పాస్వర్డ్ను నమోదు చేయండి</string>
+    <string name="err_please_enter_mobile_number">దయచేసి మొబైల్ నంబర్ను నమోదు చేయండి</string>
+    <string name="err_please_enter_valid_mobile_number">దయచేసి చెల్లుబాటు అయ్యే మొబైల్ నంబర్ను నమోదు చేయండి</string>
+    <string name="err_please_enter_old_password">దయచేసి పాత పాస్వర్డ్ను నమోదు చేయండి</string>
+    <string name="err_please_enter_new_password">దయచేసి క్రొత్త పాస్వర్డ్ నమోదు చేయండి</string>
+    <string name="password_must_contain_onecharacter">
+పాస్వర్డ్ ఒక అప్పర్కేస్, ఒక చిన్న, ఒక ప్రత్యేక అక్షరం, ఒక సంఖ్యా మరియు కనీసం 8 అక్షరాలను కలిగి ఉండాలి</string>
+    <string name="err_please_enter_confirm_password">దయచేసి పాస్వర్డ్ని నిర్ధారించండి నమోదు చేయండి</string>
+    <string name="err_password_do_not_match">పాస్వర్డ్ సరిపోలలేదు</string>
+    <string name="full_name_profile">పూర్తి పేరు * </string>
+    <string name="first_name">మొదటి పేరు * </string>
+    <string name="middle_name">మధ్య పేరు (
+ఐచ్ఛికము)</string>
+    <string name="last_name">చివరి పేరు * </string>
+    <string name="email">ఇమెయిల్ * </string>
+    <string name="email_str">ఇమెయిల్</string>
+    <string name="mobile_number">మొబైల్ సంఖ్య * </string>
+    <string name="mobile_number_event">మొబైల్ సంఖ్య</string>
+    <string name="mobile_no">మొబైల్ సంఖ్య</string>
+    <string name="confirm_password">పాస్వర్డ్ని నిర్ధారించండి * </string>
+    <string name="register">నమోదు</string>
+    <string name="already_have_an_account_login">ఖాతా కలిగి ఉన్నారా? </string>
+    <string name="signup">చేరడం</string>
+    <string name="registration">నమోదు</string>
+    <string name="err_please_enter_first_name">దయచేసి మొదటి పేరు నమోదు చేయండి</string>
+    <string name="err_please_enter_last_name">దయచేసి చివరి పేరు నమోదు చేయండి</string>
+    <string name="err_please_enter_email">దయచేసి ఇమెయిల్ ఎంటర్ చేయండి</string>
+    <string name="err_please_enter_valid_email">దయచేసి చెల్లుబాటు అయ్యే ఇమెయిల్ను నమోదు చేయండి</string>
+    <string name="change_photo">ఫోటో మార్చు</string>
+    <string name="personal_details">వ్యక్తిగత వివరాలు</string>
+    <string name="save">సేవ్</string>
+    <string name="confirm">నిర్ధారించండి</string>
+    <string name="err_please_enter_atleast_6characters">దయచేసి కనీసం 6 అక్షరాలను నమోదు చేయండి</string>
+    <string name="err_please_select_gender">దయచేసి లింగాన్ని ఎంచుకోండి</string>
+    <string name="err_please_enter_dob">దయచేసి పుట్టిన తేదీని నమోదు చేయండి</string>
+    <string name="telugu_str">తెలుగు(Telugu)</string>
+    <string name="english_str">English</string>
+    <string name="profile_str">ప్రొఫైల్</string>
+    <string name="edit_profile_str">ప్రొఫైల్ను సవరించండి</string>
+    <string name="signup_str">చేరడం</string>
+    <string name="logout_str">లాగౌట్</string>
+    <string name="languages">భాషలు</string>
+    <string name="choose_language_str">భాషను ఎంచుకోండి(Choose Language)</string>
+    <string name="date_of_birth">పుట్టిన తేది</string>
+    <string name="no_records">ఎటువంటి పత్రాలు లభించలేదు.</string>
+    <string name="no_notifications">నోటిఫికేషన్లు కనుగొనబడలేదు.</string>
+
+    <string name="no_records_church">చర్చి లేదు.</string>
+    <string name="no_records_author">రచయిత ఏదీ దొరకలేదు.</string>
+    <string name="no_records_events">ఈవెంట్లు కనుగొనబడలేదు.</string>
+    <string name="no_records_posts">పోస్ట్ దొరకలేదు.</string>
+    <string name="no_records_pastor">పాస్టర్లేవీ దొరకలేదు.</string>
+    <string name="no_records_careers">ఉద్యోగాలు లేవు.</string>
+    <string name="map">మ్యాప్</string>
+    <string name="please_login_to_subscribe">దయచేసి సబ్స్క్రయిబ్ చెయ్యడానికి లాగిన్ చేయండి</string>
+    <string name="please_login_to_delete">దయచేసి తొలగించడానికి లాగిన్ చేయండి</string>
+    <string name="please_login_to_edit">దయచేసి సవరించడానికి లాగిన్ చేయండి</string>
+    <string name="please_login_to_comment">దయచేసి వ్యాఖ్య చేయడానికి లాగిన్ చేయండి</string>
+    <string name="please_login_to_like">దయచేసి లాగిన్ అవ్వండి</string>
+    <string name="please_login_to_dislike">దయచేసి లాగిన్ అవ్వండి</string>
+
+    <string name="holy_bible_title">పవిత్ర బైబిల్</string>
+    <string name="audio_bible_title">ఆడియో బైబిల్</string>
+    <string name="bible_study_title">బైబిలు అధ్యయనం</string>
+    <string name="songs">సాంగ్స్</string>
+    <string name="scientific_proofs_title">సైంటిఫిక్ ప్రూఫ్స్</string>
+    <string name="gospel_message_title">సువార్త సందేశాలు</string>
+    <string name="short_message_title">చిన్న సందేశాలు</string>
+    <string name="images_title">చిత్రాలు</string>
+    <string name="login_id_title">లాగిన్ సృష్టి</string>
+    <string name="help_title">సహాయం</string>
+    <string name="book_shop_title">బుక్ షాప్</string>
+    <string name="movie_title">సినిమాలు</string>
+    <string name="daily_quotation_title">డైలీ కొటేషన్స్</string>
+    <string name="video_songs_title">వీడియో సాంగ్స్</string>
+    <string name="testimonials_title">టెస్టిమోనియల్స్</string>
+    <string name="quotation_title">కొటేషన్స్</string>
+    <string name="sunday_school_title">సండే స్కూల్</string>
+    <string name="daily_message_title">డైలీ సందేశాలు</string>
+    <string name="bible_app_title">బైబిలు అనువర్తనాలు</string>
+    <string name="short_film_title">చిన్న చిత్రాలు</string>
+    <string name="jobs_title">ఉద్యోగాలు</string>
+    <string name="map_title">మ్యాప్</string>
+    <string name="event_title">ఈవెంట్స్</string>
+    <string name="donation_title">విరాళం</string>
+    <string name="live_title">ప్రత్యక్ష</string>
+    <string name="doubt_title">డౌట్స్</string>
+    <string name="suggestion_title">సలహాలు</string>
+    <string name="pamphlets_title">కరపత్రాలు</string>
+    <string name="language_title">భాషలు</string>
+
+    <string name="admin_title">పాస్టర్స్</string>
+    <string name="author_title">రచయితలు</string>
+    <string name="old_password">పాత పాస్వర్డ్ * </string>
+    <string name="new_password">కొత్త పాస్వర్డ్ * </string>
+    <string name="events">ఈవెంట్స్</string>
+    <string name="start_date">ప్రారంబపు తేది</string>
+    <string name="end_date">ఆఖరి తేది</string>
+    <string name="ok">అలాగే</string>
+    <string name="all_churches">అన్ని చర్చిలు</string>
+    <string name="confirmation">నిర్ధారణ</string>
+    <string name="search_title">చర్చి పేరు, ఈవెంట్ పేరు ద్వారా శోధించండి</string>
+    <string name="categories">వర్గం</string>
+    <string name="churches">చర్చిలు</string>
+    <string name="holy_telugu">హోలీ బైబిల్ - తెలుగు</string>
+    <string name="holy_english">హోలీ బైబిల్ - ఇంగ్లీష్</string>
+    <string name="audioplayer">Audio Player</string>
+    <string name="success">విజయం</string>
+    <string name="alert_logout">మీరు లాగ్ అవుట్ చేయాలనుకుంటున్నారా?</string>
+    <string name="no_internet">దయచేసి మీ ఇంటర్నెట్ కనెక్షన్ను తనిఖీ చేయండి</string>
+    <string name="up_coming_events">రాబోయే ఈవెంట్స్</string>
+    <string name="all_events">అన్ని ఈవెంట్స్</string>
+    <string name="church_name">చర్చి పేరు</string>
+    <string name="church_names">చర్చి పేరు</string>
+    <string name="church">చర్చి</string>
+    <string name="author_name">రచయిత పేరు</string>
+    <string name="event_name">ఈవెంట్ పేరు</string>
+    <string name="videos_stng">వీడియోలు</string>
+    <string name="audios_strng">ఆడియోలు</string>
+    <string name="documents_strng">పత్రాలు</string>
+    <string name="images_strmg">చిత్రాలు</string>
+    <string name="event_from">ఈవెంట్ నుండి</string>
+    <string name="event_to">టు</string>
+    <string name="subscribe">సబ్స్క్రయిబ్</string>
+    <string name="un_subscribe">అన్సబ్స్క్రయిబ్</string>
+
+    <string name="register_church">రిజిస్ట్రేషన్ సంఖ్య</string>
+    <string name="name_church">పేరు</string>
+    <string name="description_church">వివరణ</string>
+    <string name="vision_church">విజన్</string>
+    <string name="mission_church">మిషన్</string>
+    <string name="address_church">చిరునామా</string>
+    <string name="email_church">ఇమెయిల్</string>
+    <string name="email_pastor">పాస్టర్స్ ఇమెయిల్</string>
+    <string name="web_address_church">వెబ్ చిరునామా</string>
+    <string name="landmark_church">మైలురాయి</string>
+    <string name="state_church">రాష్ట్రం</string>
+    <string name="district_church">జిల్లా</string>
+    <string name="mandal_church">మండల</string>
+    <string name="village_church">గ్రామం</string>
+    <string name="church_address">చర్చి చిరునామా</string>
+    <string name="pincode_church">పిన్ కోడ్</string>
+    <string name="author_name_church">రచయిత పేరు</string>
+    <string name="contact_num_church">సంఖ్య సంప్రదించండి</string>
+    <string name="contact_num">సంఖ్య సంప్రదించండి:</string>
+    <string name="date_of_birth_church">పుట్టిన తేది</string>
+    <string name="gender_church">లింగ</string>
+    <string name="church_details">చర్చి వివరాలు</string>
+    <string name="church_author">చర్చి రచయిత</string>
+    <string name="pastor_informaation">పాస్టర్ సమాచారం</string>
+
+    <string name="contact_number1">సంప్రదించడానికి సంఖ్య</string>
+    <string name="contact_email">ఇమెయిల్ ఐడి</string>
+    <string name="contact_address">చిరునామా</string>
+
+    <string name="opening_time">ప్రారంభ సమయం</string>
+    <string name="closing_time">ముగింపు సమయం</string>
+
+    <string name="details_middle_name">మధ్య పేరు</string>
+    <string name="country_name">దేశం</string>
+    <string name="telugu_bible">తెలుగు బైబిల్</string>
+    <string name="information">సమాచారం</string>
+    <string name="posts">పోస్ట్లు</string>
+    <string name="events_details">ఈవెంట్ వివరాలు</string>
+    <string name="contact_details">సంప్రదింపు వివరాలు</string>
+    <string name="cancel">రద్దు</string>
+    <string name="select_file">ప్రొఫైల్ను ఎంచుకోండి</string>
+    <string name="select">ఎంచుకోండి</string>
+    <string name="add_Documents">ప్రొఫైల్ను జోడించు</string>
+    <string name="currentDir">ప్రస్తుత డైరెక్టరీ</string>
+    <string name="folder">ఫోల్డర్</string>
+    <string name="fileSize">పరిమాణాన్ని</string>
+    <string name="parentDirectory">మాతృ డైరెక్టరీ</string>
+    <string name="search">శోధన</string>
+    <string name="chapter_title">అధ్యాయము</string>
+    <string name="login_successful">లాగిన్ విజయవంతమైంది</string>
+    <string name="user_registered_successfully">వాడుకరి నమోదు విజయవంతంగా</string>
+    <string name="notifications">ప్రకటనలు</string>
+    <string name="careers">కెరీర్లు</string>
+    <string name="online_shopping">ఆన్లైన్ షాపింగ్</string>
+    <string name="job_details">ఉద్యోగ వివరాలు</string>
+    <string name="apply">దరఖాస్తు</string>
+    <string name="job_title">ఉద్యోగ శీర్షిక</string>
+    <string name="job_titles">ఉద్యోగ శీర్షిక:</string>
+    <string name="vacancies">ఖాళీలు</string>
+    <string name="qualification">క్వాలిఫికేషన్</string>
+    <string name="qualification_apply">క్వాలిఫికేషన్ * </string>
+    <string name="qualifications">క్వాలిఫికేషన్:</string>
+    <string name="job_desc">ఉద్యోగ వివరణ</string>
+    <string name="contact_person">వ్యక్తి సంప్రదించండి</string>
+    <string name="contact_number">సంఖ్య సంప్రదించండి</string>
+    <string name="salary">జీతం</string>
+    <string name="last_date_to_apply">దరఖాస్తు చివరి తేదీ</string>
+    <string name="last_date_to_applys">దరఖాస్తు చివరి తేదీ:</string>
+    <!--<string name="admin_name">అడ్మిన్ పేరు</string>-->
+
+    <string name="admin_name">పాస్టర్ పేరు</string>
+    <string name="err_please_enter_qualification">దయచేసి అర్హతలు నమోదు చేయండి</string>
+    <string name="err_please_enter_job_title">దయచేసి ఉద్యోగ శీర్షికను నమోదు చేయండి</string>
+    <string name="err_enter_year">దయచేసి సంవత్సరం నమోదు చేయండి</string>
+    <string name="err_enter_month">దయచేసి నెల ప్రవేశించండి</string>
+    <string name="err_please_enter_current_organization">దయచేసి ప్రస్తుత సంస్థ నమోదు చేయండి</string>
+    <string name="err_please_enter_current_salary">దయచేసి ప్రస్తుత జీతం ఎంటర్</string>
+    <string name="err_please_enter_expected_salary">దయచేసి ఊహించిన జీతం ఎంటర్</string>
+    <string name="err_please_upload_resume">దయచేసి రెస్యూమ్ని అప్లోడ్ చేయండి     </string>
+    <string name="err_please_enter_full_name">దయచేసి పూర్తి పేరుని నమోదు చేయండి</string>
+    <string name="err_please_enter_address1">దయచేసి చిరునామా 1 ను నమోదు చేయండి</string>
+    <string name="err_please_enter_address2">దయచేసి చిరునామా 2 ను నమోదు చేయండి</string>
+    <string name="err_please_enter_pincode">దయచేసి పిన్కోడ్ను నమోదు చేయండి</string>
+    <string name="err_please_enter_landmark">దయచేసి మైలురాయిని నమోదు చేయండి</string>
+    <string name="err_please_select_state">దయచేసి రాష్ట్రం ఎంచుకోండి</string>
+    <string name="err_please_select_country">దయచేసి దేశం ఎంచుకోండి</string>
+    <string name="jobtitle">Job Title:</string>
+    <string name="year_of_experience">అనుభవ సంవత్సరం</string>
+    <string name="current_organization">ప్రస్తుత సంస్థ(ఐచ్ఛికము)</string>
+    <string name="current_salary">ప్రస్తుత జీతం(ఐచ్ఛికము)</string>
+    <string name="upload_resume">అప్లోడ్ రెస్యూమ్</string>
+    <string name="expected_salary">ఆశిస్తున్న జీతం(ఐచ్ఛికము)</string>
+    <string name="item_details">అంశం వివరాలు</string>
+    <string name="item_availability">అంశం లభ్యత</string>
+    <string name="items_availability">అంశం లభ్యత:</string>
+    <string name="please_enter_quantity">దయచేసి పరిమాణాన్ని నమోదు చేయండి</string>
+    <string name="quantity">పరిమాణం:</string>
+    <string name="add_to_cart">కార్ట్కు జోడించు</string>
+    <string name="continue_shopping">షాపింగ్ కొనసాగించడానికి</string>
+    <string name="checkout">తనిఖీ చేయండి</string>
+    <string name="address">చిరునామా</string>
+    <string name="cart">కార్ట్</string>
+    <string name="full_name">పూర్తి పేరు *</string>
+    <string name="flat_house_no_building_company_apartment">ఫ్లాట్, హౌస్ నెం., బిల్డింగ్, కంపెనీ, అపార్ట్మెంట్ *</string>
+    <string name="area_colony_street_sector_village">ప్రాంతం, కాలనీ, వీధి, సెక్టార్, గ్రామం * </string>
+    <string name="pincode">పిన్ కోడ్</string>
+    <string name="pincode_address">పిన్ కోడ్ * </string>
+    <string name="landmark">మైలురాయి</string>
+    <string name="state">రాష్ట్రం</string>
+    <string name="state_address">రాష్ట్రం * </string>
+    <string name="country">దేశం</string>
+    <string name="country_address">దేశం * </string>
+    <string name="add_new_address">క్రొత్త చిరునామాను జోడించండి</string>
+    <string name="continue_">కొనసాగించు</string>
+    <string name="are_you_remove_from_cart">మీరు ఖచ్చితంగా మీ కార్ట్ నుండి అంశాన్ని తీసివేయాలనుకుంటున్నారా?</string>
+    <string name="are_you_want_to_delete">మీరు ఖచ్చితంగా తొలగించాలనుకుంటున్నారా?</string>
+    <string name="please_login_to_viewall_replies">దయచేసి అన్ని ప్రత్యుత్తరాలను వీక్షించడానికి లాగిన్ చేయండి</string>
+    <string name="please_login_to_reply">దయచేసి ప్రత్యుత్తరం ఇవ్వండి</string>
+    <string name="item_updates_to_cart">అంశం కార్ట్కు నవీకరించబడింది</string>
+    <string name="audio">ఆడియోలు</string>
+    <string name="video">వీడియోలు</string>
+    <string name="images">చిత్రాలు</string>
+    <string name="document">పత్రాలు</string>
+    <string name="name">పేరు : </string>
+    <string name="emails">ఇమెయిల్ : </string>
+    <string name="help">సహాయం</string>
+    <string name="subscriber_name">చందాదారు పేరు</string>
+    <string name="comments">వ్యాఖ్యలు</string>
+    <string name="add_a_public_comment">ప్రజా వ్యాఖ్యను జోడించండి…</string>
+    <string name="add_a_public_reply_comment">పబ్లిక్ ప్రత్యుత్తరాన్ని జోడించండి…</string>
+    <string name="share">షేర్</string>
+    <string name="view_all_replies">అన్ని ప్రత్యుత్తరాలను వీక్షించండి</string>
+    <string name="all_replies">అన్ని ప్రత్యుత్తరాలు</string>
+    <string name="edit">మార్చు</string>
+    <string name="delete">తొలగించు</string>
+    <string name="views">చూశారు</string>
+    <string name="delete_comment">వ్యాఖ్యను తొలగించండి</string>
+    <string name="delete_comment_permanently">శాశ్వతంగా వ్యాఖ్యను తొలగించండి</string>
+    <string name="update">నవీకరణ</string>
+    <string name="author">రచయిత:</string>
+    <string name="author_cart">రచయిత:</string>
+
+    <string name="price">ధర:</string>
+    <string name="total_price">మొత్తం విలువ:</string>
+    <string name="new_notification">కొత్త</string>
+    <string name="read_notification">చదివినవి</string>
+    <string name="unread_notification">చదవని</string>
+    <string name="event_names">ఈవెంట్ పేరు </string>
+    <string name="to">టు</string>
+    <string name="notification_deatails">Notification Deatails</string>
+    <string name="title">టైటిల్</string>
+    <string name="description">వివరణ</string>
+    <string name="generated_on">రూపొందించబడినది</string>
+    <string name="generated_by">ద్వారా ఉత్పత్తి</string>
+    <string name="seller_information">విక్రేత సమాచారం :</string>
+    <string name="item_detail">అంశం వివరాలు :</string>
+    <string name="no_categories_found">ఏ వర్గం కనుగొనబడలేదు.</string>
+    <string name="pastors_title">పాస్టర్స్</string>
+    <string name="no_address_found">చిరునామా ఏదీ కనుగొనబడలేదు</string>
+    <string name="no_records_items">ఏ అంశాలు కనుగొనబడలేదు.</string>
+    <string name="pator_name">పాస్టర్ పేరు</string>
+    <string name="contact">సంప్రదించండి</string>
+    <string name="products">ఉత్పత్తులు</string>
+    <string name="products_sale_is_not_yet_statrted_please_wait_for_next_update">ఉత్పత్తులు అమ్మకం ఇంకా మొదలవలేదు...\nదయచేసి తదుపరి అప్డేట్ కోసం వేచి ఉండండి...</string>
+    <string name="no_events">ఈవెంట్స్ లేవు</string>
+    <string name="your_cart_is_empty_nlet_s_take_you_shopping">మీ సరుకుల సంచీ ఖాళీగా నున్నది.\nఇప్పుడు షాపింగ్ చేయండి!</string>
+    <string name="address_select">దయచేసి చిరునామాని ఎంచుకోండి</string>
+
+    <string-array name="categories">
+        <item>@string/holy_bible_title</item>
+        <item>@string/audio_bible_title</item>
+        <item>@string/bible_study_title</item>
+        <item>@string/songs</item>
+        <item>@string/scientific_proofs_title</item>
+        <item>@string/gospel_message_title</item>
+        <item>@string/short_message_title</item>
+        <item>@string/images_title</item>
+        <item>@string/login_id_title</item>
+        <item>@string/help_title</item>
+        <item>@string/book_shop_title</item>
+        <item>@string/movie_title</item>
+        <item>@string/daily_quotation_title</item>
+        <item>@string/video_songs_title</item>
+        <item>@string/testimonials_title</item>
+        <item>@string/quotation_title</item>
+        <item>@string/sunday_school_title</item>
+        <item>@string/daily_message_title</item>
+        <item>@string/bible_app_title</item>
+        <item>@string/short_film_title</item>
+        <item>@string/jobs_title</item>
+        <item>@string/map_title</item>
+        <item>@string/event_title</item>
+        <item>@string/donation_title</item>
+        <item>@string/live_title</item>
+        <item>@string/doubt_title</item>
+        <item>@string/suggestion_title</item>
+        <item>@string/pamphlets_title</item>
+        <item>@string/language_title</item>
+        <item>@string/admin_title</item>
+
+    </string-array>
+
+</resources>

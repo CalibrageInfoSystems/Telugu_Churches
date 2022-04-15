@@ -1,0 +1,421 @@
+<resources>
+    <string name="app_name">Telugu Churches</string>
+
+    <string name="DEVELOPER_KEY">AIzaSyDt4waoZKSYTWq7b34qUwMW6Nc7dWlEZAw</string>
+    <string name="google_maps_key">AIzaSyBt-xSvDLNr1FBcypFJcRv1m5u3pgITAmo</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+
+    <string name="userinfo_str">Profile information</string>
+    <string name="settings_str">Settings</string>
+    <string name="please_enter_mobile_number">Please enter mobile number</string>
+    <string name="please_enter_email">Please enter email</string>
+
+    <string name="username">User Name * </string>
+    <string name="author_username">User Name</string>
+
+    <string name="password">Password * </string>
+    <string name="login">Login</string>
+    <string name="change_password">Change Password</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="don_t_have_an_account_register">Don’t have an Account?</string>
+    <string name="please_login">Please Login</string>
+    <string name="err_please_enter_username">Please enter username</string>
+    <string name="err_please_enter_password">Please enter password</string>
+    <string name="err_please_enter_mobile_number">Please enter mobile number</string>
+    <string name="err_please_enter_valid_mobile_number">Please enter valid mobile number</string>
+    <string name="err_please_enter_old_password">Please enter old password</string>
+    <string name="err_please_enter_new_password">Please enter new password</string>
+    <string name="password_must_contain_onecharacter">Password should contain one upperCase,
+        one lowercase, one special character, one numeric and minimum Of 8 characters</string>
+    <string name="err_please_enter_confirm_password">Please enter confirm password</string>
+    <string name="err_password_do_not_match">Password do not match</string>
+    <string name="full_name_profile">Full Name * </string>
+    <string name="first_name">First Name * </string>
+    <string name="middle_name">Middle Name (Optional)</string>
+    <string name="last_name">Last Name * </string>
+    <string name="email">Email * </string>
+    <string name="email_str">Email</string>
+    <string name="mobile_number">Mobile Number * </string>
+    <string name="mobile_number_event">Mobile Number</string>
+    <string name="mobile_no">Mobile Number</string>
+    <string name="event_date">Event Date</string>
+    <string name="date_of_birth">Date of Birth</string>
+    <string name="confirm_password">Confirm Password * </string>
+    <string name="register">Register</string>
+    <string name="already_have_an_account_login">Already have an Account?</string>
+    <string name="signup">Signup</string>
+    <string name="registration">Registration</string>
+    <string name="err_please_enter_first_name">Please enter first name</string>
+    <string name="err_please_enter_last_name">Please enter last name</string>
+    <string name="err_please_enter_email">Please enter email</string>
+    <string name="err_please_enter_valid_email">Please enter valid email</string>
+    <string name="change_photo">Change photo</string>
+    <string name="personal_details">Personal Details</string>
+    <string name="save">Save</string>
+    <string name="confirm">Confirm</string>
+    <string name="cancel">Cancel</string>
+    <string name="select_file">Select Resume</string>
+    <string name="select">Select</string>
+    <string name="add_Documents">Add Resume</string>
+    <string name="currentDir">Current Directory</string>
+    <string name="folder">Folder</string>
+    <string name="fileSize">FileSize</string>
+    <string name="parentDirectory">Parent Directory</string>
+    <string name="err_please_enter_atleast_6characters">Please enter atLeast 6 characters</string>
+    <string name="err_please_select_gender">Please select Gender</string>
+    <string name="err_please_enter_dob">Please enter date of birth</string>
+    <string name="languages">Languages</string>
+    <string name="telugu_str">Telugu(తెలుగు)</string>
+    <string name="english_str">English</string>
+    <string name="profile_str">Profile</string>
+    <string name="edit_profile_str">Edit Profile</string>
+    <string name="signup_str">SignUp</string>
+    <string name="logout_str">Logout</string>
+    <string name="choose_language_str">Choose Language(భాషను ఎంచుకోండి)</string>
+    <string name="gender_title">Gender</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="no_records_found">No Records Found. Please try with another Keyword</string>
+    <string name="no_records">No Records Found.</string>
+    <string name="no_records_church">No Churches Found.</string>
+    <string name="no_records_author">No Pastors Found.</string>
+    <string name="no_records_pastor">No Pastors Found.</string>
+    <string name="no_records_events">No Events Found.</string>
+    <string name="no_records_posts">No Posts Found.</string>
+    <string name="no_records_careers">No Careers Found.</string>
+    <string name="no_notifications">No Notifications Found.</string>
+    <string name="no_records_items">No Items Found.</string>
+    <string name="confirmation">Confirmation</string>
+    <string name="success">Success</string>
+    <string name="alert_logout">Are you sure you want to Logout?</string>
+
+    <string name="holy_bible_title">Holy Bible</string>
+    <string name="audio_bible_title">Audio Bible</string>
+    <string name="bible_study_title">Bible Study</string>
+    <string name="songs">Songs</string>
+    <string name="scientific_proofs_title">Scientific Proofs</string>
+    <string name="gospel_message_title">Gospel messages</string>
+    <string name="short_message_title">Short messages</string>
+    <string name="images_title">Images</string>
+    <string name="login_id_title">Login id creation</string>
+    <string name="help_title">Help</string>
+    <string name="book_shop_title">Book shop</string>
+    <string name="movie_title">Movies</string>
+    <string name="daily_quotation_title">Daily Quotations</string>
+    <string name="video_songs_title">Video songs</string>
+    <string name="testimonials_title">Testimonials</string>
+    <string name="quotation_title">Quotations</string>
+    <string name="sunday_school_title">Sunday school</string>
+    <string name="daily_message_title">Daily messages</string>
+    <string name="bible_app_title">Bible Apps</string>
+    <string name="short_film_title">Short films</string>
+    <string name="jobs_title">Jobs</string>
+    <string name="map_title">Map</string>
+    <string name="event_title">Events</string>
+    <string name="donation_title">Donation</string>
+    <string name="live_title">Live</string>
+    <string name="doubt_title">Doubts</string>
+    <string name="suggestion_title">Suggestions</string>
+    <string name="pamphlets_title">Pamphlets</string>
+    <string name="language_title">Languages</string>
+    <string name="admin_title">Pastor</string>
+    <string name="address_select">Please select Address</string>
+
+    <string name="toast_camera">Camera permission granted</string>
+    <string name="toast_camera_denied">Camera permission denied</string>
+    <string name="author_title">Pastors</string>
+    <string name="old_password">Old Password * </string>
+    <string name="new_password">New Password * </string>
+    <string name="events">Events</string>
+    <string name="start_date">Start Date</string>
+    <string name="end_date">End Date</string>
+    <string name="ok">Ok</string>
+    <string name="all_churches"> Churches</string>
+    <string name="search_title">Search by Church Name, Event Name</string>
+    <string name="categories">Categories</string>
+    <string name="churches">Churches</string>
+    <string name="upcoming_events_home">Upcoming events</string>
+    <string name="holy_telugu">Holy Bible - Telugu</string>
+    <string name="holy_english">Holy Bible - English</string>
+    <string name="audioplayer">Audio Player</string>
+    <string name="up_coming_events">Upcoming Events</string>
+    <string name="all_events">All Events</string>
+    <string name="church_name">Church Name</string>
+    <string name="church_names">Church Name</string>
+    <string name="church">Church</string>
+    <string name="author_name">Pastor Name</string>
+    <string name="author_names">Pastor Name:</string>
+    <string name="event_name">Event Name</string>
+    <string name="event_names">Event Name</string>
+    <string name="event_from">Event From</string>
+    <string name="event_to">Event To</string>
+
+
+    <string name="contact_number1">Contact Number</string>
+    <string name="contact_email">Email id</string>
+    <string name="contact_address">Address</string>
+
+
+    <string name="opening_time">Opening Time</string>
+    <string name="closing_time">Closing Time</string>
+
+
+
+    <string name="register_church">Registration Number</string>
+    <string name="name_church">Name</string>
+    <string name="subscribe">Subscribe</string>
+    <string name="un_subscribe">Unsubscribe</string>
+    <string name="description_church">Description</string>
+    <string name="vision_church">Vision</string>
+    <string name="mission_church">Mission</string>
+    <string name="address_church">Address</string>
+    <string name="email_church">Email</string>
+    <string name="email_pastor">Pastor email</string>
+    <string name="web_address_church">Web address</string>
+    <string name="landmark_church">Landmark</string>
+    <string name="state_church">State</string>
+    <string name="district_church">District</string>
+    <string name="mandal_church">Mandal</string>
+    <string name="village_church">Village</string>
+    <string name="church_address">Church Address</string>
+    <string name="pincode_church">Pin Code</string>
+    <string name="author_name_church">Pastor Name</string>
+    <string name="contact_num_church">Contact Number</string>
+    <string name="contact_num">Contact Number:</string>
+    <string name="date_of_birth_church">Date of Birth</string>
+    <string name="gender_church">Gender</string>
+    <string name="church_details">Church Details</string>
+    <string name="church_author">Church Pastor</string>
+    <string name="pastor_informaation">Pastor information</string>
+    <string name="map">Map</string>
+    <string name="no_internet">Please check your internet connection</string>
+    <string name="details_middle_name">Middle Name</string>
+    <string name="country_name">Country</string>
+    <string name="telugu_bible">Telugu Bible</string>
+    <string name="search_hint">Church Name/Mobile Number</string>
+    <string name="search">Search</string>
+    <string name="information">Information</string>
+    <string name="posts">Posts</string>
+    <string name="events_details">Event Details</string>
+    <string name="contact_details">Contact Details</string>
+    <string name="videos_stng">Videos</string>
+    <string name="audios_strng">Audios</string>
+    <string name="documents_strng">Documents</string>
+    <string name="images_strmg">Images</string>
+    <string name="chapter_title">Chapter</string>
+    <string name="please_login_to_subscribe">Please login to subscribe</string>
+    <string name="please_login_to_delete">Please login to delete</string>
+    <string name="please_login_to_edit">Please login to edit</string>
+    <string name="please_login_to_comment">Please login to comment</string>
+    <string name="please_login_to_like">Please login to like</string>
+    <string name="please_login_to_dislike">Please login to Dislike</string>
+    <string name="delete_comment">Delete Comment</string>
+    <string name="login_successful">Login Successful</string>
+    <string name="user_registered_successfully">User registered successfully</string>
+    <string name="notifications">Notifications</string>
+    <string name="careers">Careers</string>
+    <string name="online_shopping">Online Shopping</string>
+    <string name="job_details">Job Details</string>
+    <string name="apply">Apply</string>
+    <string name="job_title">Job Title</string>
+    <string name="job_titles">Job Title:</string>
+    <string name="vacancies">Vacancies</string>
+    <string name="qualification">Qualification </string>
+    <string name="qualification_apply">Qualification * </string>
+    <string name="qualifications">Qualification:</string>
+    <string name="job_desc">Job Description</string>
+    <string name="contact_person">Contact person</string>
+    <string name="contact_number">Contact number</string>
+    <string name="salary">Salary</string>
+    <string name="last_date_to_apply">Last Date to Apply</string>
+    <string name="last_date_to_applys">Last Date to Apply:</string>
+    <string name="admin_name">Pastor Name</string>
+
+
+    <string name="err_please_enter_qualification">Please enter Qualification</string>
+    <string name="err_please_enter_job_title">Please enter job title</string>
+    <string name="err_enter_year">Please enter Year</string>
+    <string name="err_enter_month">Please enter Month</string>
+    <string name="err_please_enter_current_organization">Please enter current Organization</string>
+    <string name="err_please_enter_current_salary">Please enter current salary</string>
+    <string name="err_please_enter_expected_salary">Please enter expected salary</string>
+    <string name="err_please_upload_resume">Please upload resume</string>
+    <string name="emptystring_dot">---</string>
+    <string name="err_please_enter_full_name">Please enter Full Name</string>
+    <string name="err_please_enter_address1">Please enter Address1</string>
+    <string name="err_please_enter_address2">Please enter Address2</string>
+    <string name="err_please_enter_pincode">Please enter Pincode</string>
+    <string name="err_please_enter_landmark">Please enter Landmark</string>
+    <string name="err_please_select_state">Please select State</string>
+    <string name="err_please_select_country">Please select Country</string>
+    <string name="jobtitle">Job Title:</string>
+    <string name="year_of_experience">Year of experience * </string>
+    <string name="current_organization">Current Organization(Optional)</string>
+    <string name="current_salary">Current salary(Optional)</string>
+    <string name="upload_resume">Upload Resume</string>
+    <string name="expected_salary">Expected Salary(Optional)</string>
+    <string name="item_details">Item details</string>
+    <string name="item_availability">Item availability</string>
+    <string name="items_availability">Item availability:</string>
+    <string name="please_enter_quantity">Please enter Quantity</string>
+    <string name="quantity">Quantity:</string>
+    <string name="add_to_cart">Add to cart</string>
+    <string name="continue_shopping">Continue shopping</string>
+    <string name="checkout">Checkout</string>
+    <string name="address">Address</string>
+    <string name="cart">Cart</string>
+    <string name="full_name">Full Name *</string>
+    <string name="flat_house_no_building_company_apartment">Flat, House no.,Building, Company, Apartment *</string>
+    <string name="area_colony_street_sector_village">Area, Colony, Street, Sector, Village * </string>
+    <string name="pincode">Pincode</string>
+    <string name="pincode_address">Pincode * </string>
+    <string name="landmark">Landmark</string>
+    <string name="state">State</string>
+    <string name="state_address">State * </string>
+    <string name="country">Country</string>
+    <string name="country_address">Country * </string>
+    <string name="add_new_address">Add new Address</string>
+    <string name="continue_">Continue</string>
+    <string name="are_you_remove_from_cart">Are you sure want to remove item from your cart?</string>
+    <string name="are_you_want_to_delete">Are you sure want to Delete?</string>
+    <string name="please_login_to_viewall_replies">Please Login to view all replies</string>
+    <string name="please_login_to_reply">Please login to reply</string>
+    <string name="item_updates_to_cart">Item updated to cart</string>
+    <string name="audio">Audios</string>
+    <string name="video">Videos</string>
+    <string name="images">Images</string>
+    <string name="document">Documents</string>
+    <string name="name">Name : </string>
+    <string name="emails">Email : </string>
+    <string name="help">Help</string>
+    <string name="subscriber_name">Subscriber Name</string>
+    <string name="comments">Comments</string>
+    <string name="add_a_public_comment">Add a public comment…</string>
+    <string name="add_a_public_reply_comment">Add a public reply…</string>
+    <string name="share">Share</string>
+    <string name="view_all_replies">View all replies</string>
+    <string name="all_replies">All replies</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="views">Views</string>
+    <string name="delete_comment_permanently">Delete comment permanently</string>
+    <string name="update">Update</string>
+    <string name="author">Pastor:</string>
+    <string name="author_cart">Author:</string>
+    <string name="price">Price:</string>
+    <string name="total_price">Total Price:</string>
+    <string name="new_notification">New</string>
+    <string name="read_notification">Read</string>
+    <string name="unread_notification">Unread</string>
+    <string name="to">To</string>
+    <string name="notification_deatails">Notification details</string>
+    <string name="title">Title</string>
+    <string name="description">Description</string>
+    <string name="generated_on">Generated on</string>
+    <string name="generated_by">Generated by</string>
+    <string name="seller_information">Seller information :</string>
+    <string name="item_detail">Item Detail :</string>
+    <string name="no_categories_found">No Categories Found.</string>
+    <string name="pastors_title">Pastors</string>
+    <string name="no_address_found">No Address Found</string>
+    <string name="pator_name">Pastor Name</string>
+    <string name="contact">Contact Us</string>
+    <string name="products">Products</string>
+    <string name="products_sale_is_not_yet_statrted_please_wait_for_next_update">Products sale is not yet statrted...\nPlease wait for next Update...</string>
+    <string name="no_events">No Events</string>
+    <string name="your_cart_is_empty_nlet_s_take_you_shopping">Your cart is empty.\n Shop Now!</string>
+
+
+    <string-array name="categories">
+        <item>@string/holy_bible_title</item>
+        <item>@string/audio_bible_title</item>
+        <item>@string/bible_study_title</item>
+        <item>@string/songs</item>
+        <item>@string/scientific_proofs_title</item>
+        <item>@string/gospel_message_title</item>
+        <item>@string/short_message_title</item>
+        <item>@string/images_title</item>
+        <item>@string/login_id_title</item>
+        <item>@string/help_title</item>
+        <item>@string/book_shop_title</item>
+        <item>@string/movie_title</item>
+        <item>@string/daily_quotation_title</item>
+        <item>@string/video_songs_title</item>
+        <item>@string/testimonials_title</item>
+        <item>@string/quotation_title</item>
+        <item>@string/sunday_school_title</item>
+        <item>@string/daily_message_title</item>
+        <item>@string/bible_app_title</item>
+        <item>@string/short_film_title</item>
+        <item>@string/jobs_title</item>
+        <item>@string/map_title</item>
+        <item>@string/event_title</item>
+        <item>@string/donation_title</item>
+        <item>@string/live_title</item>
+        <item>@string/doubt_title</item>
+        <item>@string/suggestion_title</item>
+        <item>@string/pamphlets_title</item>
+        <item>@string/language_title</item>
+        <item>@string/admin_title</item>
+
+    </string-array>
+
+    <string-array name="year">
+        <item>"Years"</item>
+        <item>"0 Year"</item>
+        <item>"1 Year"</item>
+        <item>"2 Years"</item>
+        <item>"3 Years"</item>
+        <item>"4 Years"</item>
+        <item>"5 Years"</item>
+        <item>"6 Years"</item>
+        <item>"7 Years"</item>
+        <item>"8 Years"</item>
+        <item>"9 Years"</item>
+        <item>"10 Years"</item>
+        <item>"11 Years"</item>
+        <item>"12 Years"</item>
+        <item>"13 Years"</item>
+        <item>"14 Years"</item>
+        <item>"15 Years"</item>
+        <item>"16 Years"</item>
+        <item>"17 Years"</item>
+        <item>"18 Years"</item>
+        <item>"19 Years"</item>
+        <item>"20 Years"</item>
+        <item>"21 Years"</item>
+        <item>"22 Years"</item>
+        <item>"23 Years"</item>
+        <item>"24 Years"</item>
+        <item>"25 Years"</item>
+        <item>"26 Years"</item>
+        <item>"27 Years"</item>
+        <item>"28 Years"</item>
+        <item>"29 Years"</item>
+        <item>"30 Years"</item>
+
+    </string-array>
+    <string-array name="month">
+        <item>Months</item>
+        <item>0 Month</item>
+        <item>1 Month</item>
+        <item>2 Months</item>
+        <item>3 Months</item>
+        <item>4 Months</item>
+        <item>5 Months</item>
+        <item>6 Months</item>
+        <item>7 Months</item>
+        <item>8 Months</item>
+        <item>9 Months</item>
+        <item>10 Months</item>
+        <item>11 Months</item>
+        <item>12 Months</item>
+
+    </string-array>
+
+</resources>

@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        android:id="@+id/mToolbar"
+        layout="@layout/toolbar_layout" />
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mToolbar">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:id="@+id/changePhotoLay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="vertical">
+                <!--
+                                <com.mikhaellopez.circularimageview.CircularImageView
+                                    android:id="@+id/profileImage"
+                                    android:layout_width="30dp"
+                                    android:layout_height="30dp"
+                                    android:layout_centerHorizontal="true"
+                                    android:scaleType="centerCrop"
+                                    android:src="@drawable/ic_userp" />-->
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/profileImage"
+                    android:layout_width="@dimen/image_width"
+                    android:layout_height="@dimen/image_width"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/profile_pic" />
+
+
+                <in.calibrage.teluguchurches.views.custom_controls.CommonTextView
+                    android:id="@+id/editimage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/profileImage"
+                    android:layout_centerInParent="true"
+                    android:padding="6dp"
+                    android:text="@string/change_photo"
+                    android:visibility="gone"
+                    android:textColor="@color/colorPrimary" />
+            </LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:weightSum="3"
+    android:layout_height="wrap_content">
+    <in.calibrage.teluguchurches.views.custom_controls.CommonTextView
+        android:id="@+id/title_text"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/changePhotoLay"
+        android:layout_marginLeft="5dp"
+        android:padding="10dp"
+        android:layout_marginRight="10dip"
+        android:text="@string/profile_str"
+        android:textColor="@color/colorPrimary"
+        android:layout_weight="2.5"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+
+
+    <ImageView
+
+        android:id="@+id/edit_button"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="1dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/rounded_bg"
+        android:padding="6dp"
+        android:layout_weight="0.5"
+        android:src="@drawable/ic_edit" />
+</LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/title_text"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:orientation="vertical">
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/fullname_lay"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    >
+
+                    <in.calibrage.teluguchurches.views.custom_controls.CommonEditText
+                        android:id="@+id/fullnameEdt"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_gravity="center_horizontal"
+                        android:backgroundTint="@color/color_border"
+                        android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ "
+                        android:hint="@string/full_name_profile"
+                        android:inputType="textVisiblePassword"
+                        android:maxLength="40"
+                        android:editable="false"
+                        android:singleLine="true"
+                        app:met_floatingLabel="highlight"
+                        android:textSize="14dp"
+                        />
+
+
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/firstname_lay"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    >
+
+                    <in.calibrage.teluguchurches.views.custom_controls.CommonEditText
+                        android:id="@+id/firstnameEdt"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_gravity="center_horizontal"
+                        android:backgroundTint="@color/color_border"
+                        android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ "
+                        android:hint="@string/first_name"
+                        android:focusable="true"
+                        android:inputType="textVisiblePassword"
+                        android:maxLength="40"
+                        android:singleLine="true"
+                        app:met_floatingLabel="highlight"
+                        android:textSize="14dp"
+                        />
+
+
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/middle_name_lay"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/firstname_lay"
+                    android:layout_marginTop="5dp"
+                    app:hintTextAppearance="@style/user_profile_text">
+
+                    <in.calibrage.teluguchurches.views.custom_controls.CommonEditText
+                        android:id="@+id/middle_nameEdt"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_gravity="center_horizontal"
+                        android:backgroundTint="@color/color_border"
+                        android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ "
+                        android:hint="@string/middle_name"
+                        android:inputType="textVisiblePassword"
+                        android:maxLength="40"
+                        android:singleLine="true"
+                        app:met_floatingLabel="highlight" />
+
+
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/lastname_lay"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/middle_name_lay"
+                    android:layout_marginTop="5dp"
+                    app:hintTextAppearance="@style/user_profile_text">
+
+                    <in.calibrage.teluguchurches.views.custom_controls.CommonEditText
+                        android:id="@+id/lastnameEdt"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_gravity="center_horizontal"
+                        android:backgroundTint="@color/color_border"
+                        android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ "
+                        android:hint="@string/last_name"
+                        android:inputType="textVisiblePassword"
+                        android:maxLength="40"
+                        android:singleLine="true"
+                        app:met_floatingLabel="highlight"
+                        android:textSize="14dp"/>
+
+
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/name_lay"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/lastname_lay"
+                    android:layout_marginTop="5dp"
+                    app:hintTextAppearance="@style/user_profile_text">
+
+                    <in.calibrage.teluguchurches.views.custom_controls.CommonEditText
+                        android:id="@+id/usernameEdt"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_gravity="center_horizontal"
+                        android:backgroundTint="@color/color_border"
+                        android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789."
+                        android:focusable="false"
+                        android:hint="@string/username"
+                        android:inputType="textVisiblePassword"
+                        android:maxLength="40"
+                        android:singleLine="true"
+                        android:textSize="14dp"
+                        app:met_floatingLabel="highlight" />
+
+
+                </android.support.design.widget.TextInputLayout>
+
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/email_lay"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/name_lay"
+                    android:layout_marginTop="5dp"
+                    app:hintTextAppearance="@style/user_profile_text">
+
+                    <in.calibrage.teluguchurches.views.custom_controls.CommonEditText
+                        android:id="@+id/emailEdt"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_gravity="center_horizontal"
+                        android:backgroundTint="@color/color_border"
+                        android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789.@"
+                        android:hint="@string/email"
+                        android:inputType="textEmailAddress"
+                        android:singleLine="true"
+                        android:textSize="14dp"
+                        app:met_floatingLabel="highlight" />
+
+
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/mobile_lay"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/email_lay"
+                    android:layout_marginTop="5dp"
+                    app:hintTextAppearance="@style/user_profile_text">
+
+                    <in.calibrage.teluguchurches.views.custom_controls.CommonEditText
+                        android:id="@+id/mobileNumberEdt"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_gravity="center_horizontal"
+                        android:backgroundTint="@color/color_border"
+                        android:digits="0123456789"
+                        android:focusable="false"
+                        android:hint="@string/mobile_number"
+                        android:inputType="number"
+                        android:maxLength="10"
+                        android:singleLine="true"
+                        android:textSize="14dp"
+                        app:met_floatingLabel="highlight" />
+
+
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/inp_dob"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:visibility="gone"
+                    app:hintTextAppearance="@style/user_profile_text">
+
+
+                    <in.calibrage.teluguchurches.views.custom_controls.CommonEditText
+                        android:id="@+id/dobEdt"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="@color/color_border"
+                        android:focusable="false"
+                        android:hint="@string/date_of_birth"
+                        android:imeOptions="actionNext"
+                        android:textSize="14dp"
+                        android:singleLine="true" />
+                </android.support.design.widget.TextInputLayout>
+
+
+                <in.calibrage.teluguchurches.views.custom_controls.CommonTextView
+                    android:id="@+id/genderlayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/gender_title"
+                    android:visibility="gone"
+                    app:hintTextAppearance="@style/TextLabel" />
+
+                <RadioGroup
+                    android:id="@+id/genderGroup"
+                    android:layout_width="match_parent"
+                    android:visibility="gone"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    >
+
+                    <RadioButton
+                        android:id="@+id/maleRB"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/male"
+                        android:textSize="14dp"/>
+
+                    <RadioButton
+                        android:id="@+id/femaleRB"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/female"
+                        android:textSize="14dp"/>
+                </RadioGroup>
+
+                <in.calibrage.teluguchurches.views.custom_controls.CommonButton
+                    android:id="@+id/saveBtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginRight="40dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/btn_background_save"
+                    android:textAllCaps="false"
+                    android:text="@string/save"
+                    android:textColor="@android:color/white" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="in.calibrage.teluguchurches">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_CALENDAR" />
+    <uses-permission android:name="android.permission.WRITE_CALENDAR" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    |
+    <permission android:name="android.permission.MEDIA_CONTENT_CONTROL" />
+
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <protected-broadcast android:name="com.motorola.motocare.INTENT_TRIGGER" />
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@drawable/loginimage"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".views.Activities.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".views.Activities.CategoriesActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".views.Activities.LoginActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".views.Activities.SignUpActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".views.Activities.MapViewActivity"
+            android:screenOrientation="portrait" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".views.Activities.AllChurchesActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".views.Activities.ChurchDetailsActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".views.Activities.PastorsListActivity" />
+        <activity android:name=".views.Activities.HomeActivity" />
+        <activity android:name=".views.Activities.AdminDetailsActivity" />
+        <activity android:name=".views.Activities.EventsTabActivity" />
+        <activity android:name=".views.Activities.CategoriesDetailActivity" />
+        <activity android:name=".views.Activities.AudioActivity" />
+        <activity android:name=".views.Activities.ProfileActivity" />
+        <activity android:name=".views.Activities.YoutubePlayerActivity" />
+        <activity android:name=".views.Activities.EventDetailTabActivity" />
+        <activity android:name=".views.Activities.CareersActivity" />
+        <activity android:name=".views.Activities.OnlineShoppingActivity" />
+        <activity android:name=".views.Activities.CareersDetailActivity" />
+        <activity android:name=".views.Activities.ApplyActivity" />
+        <activity android:name=".views.Activities.FileChooser" />
+        <activity android:name=".views.Activities.NotificationEventDetailTabActivity" />
+
+        <receiver
+            android:name=".notificationfirebase.NotificationDismissedReceiver"
+            android:exported="false" />
+
+        <!-- Defining Services -->
+        <service
+            android:name=".notificationfirebase.AppFireBaseMessagingService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service
+            android:name=".notificationfirebase.AppFireBaseInstanceIdService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@drawable/ic_notifications_black_24dp" />
+
+        <activity android:name=".views.Activities.BibleStudyEnglish" />
+        <activity android:name=".views.Activities.BibleStudyActivity" />
+        <activity android:name=".views.Activities.BibleChapterActivity" />
+        <activity android:name=".views.Activities.BibleVerseActivity" />
+        <activity android:name=".views.Activities.ImageViewActivity" />
+        <activity android:name=".views.Activities.PdfReaderActivity" />
+        <activity android:name=".views.Activities.OnlineshoppingItemDetailActivity" />
+        <activity android:name=".views.Activities.CartActivity"
+            android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity android:name=".views.Activities.AddressActivity" />
+        <activity android:name=".views.Activities.AddNewAddressActivity" />
+        <activity android:name=".views.Activities.NotificationScreenActivity" />
+        <activity android:name=".views.Activities.HelpActivity" />
+        <activity android:name=".views.Activities.ContactUsActivity"/>
+
+        <receiver android:name=".util.RefreshToken">
+            <intent-filter>
+                <action android:name="com.TeluguChurches.CUSTOM_INTENT" />
+            </intent-filter>
+        </receiver>
+
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="a1a9c0d5ca4f397912aa097d3bebec77333d1fca" />
+
+    </application>
+
+</manifest>

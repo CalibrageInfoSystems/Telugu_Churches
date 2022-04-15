@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/cart_toolbar"
+        android:actionLayout="@layout/feed_update_count"
+        android:title="Cart"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/notification_toolbar"
+        android:actionLayout="@layout/notification_count"
+        android:title="Notification"
+        app:showAsAction="always" />
+
+</menu>
